@@ -17,19 +17,19 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="200" column="34" lean-forward="false" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+            <state relative-caret-position="433">
+              <caret line="253" column="59" lean-forward="false" selection-start-line="253" selection-start-column="59" selection-end-line="253" selection-end-column="59" />
               <folding>
-                <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-                <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-                <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-                <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-                <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-                <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-                <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-                <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-                <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-                <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+                <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+                <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+                <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+                <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+                <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+                <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+                <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+                <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+                <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+                <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,20 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018_01_18_172219_add_deleted_at_column_to_posts_tables.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_18_172219_add_deleted_at_column_to_posts_tables.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -114,6 +126,7 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_01_03_060246_add_admin_column_to_post_tables.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_03_062942_add_admin_column_to_post_tables.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_01_18_172219_add_deleted_at_column_to_posts_tables.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
@@ -232,6 +245,12 @@
               <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,6 +264,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file:///Applications/MAMP/htdocs/cms/app/Http/routes.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -293,19 +313,19 @@
       <workItem from="1515631486419" duration="4951000" />
       <workItem from="1516049183962" duration="219000" />
       <workItem from="1516217316297" duration="62000" />
-      <workItem from="1516218860143" duration="5346000" />
+      <workItem from="1516218860143" duration="7933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37732000" />
+    <option name="totallyTimeSpent" value="40319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="45" width="1404" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36039886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21082622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -364,28 +384,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>
@@ -461,16 +474,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>
@@ -546,16 +559,16 @@
         <state relative-caret-position="525">
           <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>
@@ -607,16 +620,16 @@
         <state relative-caret-position="105">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>
@@ -633,16 +646,16 @@
         <state relative-caret-position="675">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>
@@ -762,27 +775,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_01_18_172219_add_deleted_at_column_to_posts_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="200" column="34" lean-forward="false" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+        <state relative-caret-position="433">
+          <caret line="253" column="59" lean-forward="false" selection-start-line="253" selection-start-column="59" selection-end-line="253" selection-end-column="59" />
           <folding>
-            <marker date="1516232443000" expanded="true" signature="278:325" ph="insert into posts... " />
-            <marker date="1516232443000" expanded="true" signature="521:553" ph="select * fro... posts" />
-            <marker date="1516232443000" expanded="true" signature="754:778" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:793" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:803" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:808" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="754:827" ph="update posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
-            <marker date="1516232443000" expanded="true" signature="3746:3810" ph="..." />
+            <marker date="1516298424000" expanded="true" signature="278:325" ph="insert into posts... " />
+            <marker date="1516298424000" expanded="true" signature="521:553" ph="select * fro... posts" />
+            <marker date="1516298424000" expanded="true" signature="754:778" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:793" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:803" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:808" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="754:827" ph="update posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:931" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="901:937" ph="DELETE FROM posts... " />
+            <marker date="1516298424000" expanded="true" signature="4428:4492" ph="..." />
           </folding>
         </state>
       </provider>

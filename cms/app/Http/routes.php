@@ -164,7 +164,7 @@ use App\Post;
 //Route::get('/create', function(){
 //
 //
-//    Post::create(['title'=>'the create method', 'content'=>'This is how I\'m gonna make fresh data']);
+//    Post::create(['title'=>'the create method2', 'content'=>'This is how I\'m gonna make more  data']);
 //
 //
 //});
@@ -199,16 +199,65 @@ use App\Post;
 
 
 //use destroy oif you know the key
+//
+//Route::get('/delete2', function(){
+//
+//   Post::destroy(7);
+//
+//   //or
+//   // Post::where('is_admin',0) ->delete();
+//
+//
+//});
 
-Route::get('/delete2', function(){
 
-   Post::destroy(7);
+////soft delete
+//Route::get('/softdelete', function(){
+//
+//Post::find(2)->delete();
+//
+//
+//
+//});
 
-   //or
-   // Post::where('is_admin',0) ->delete();
+
+//Route::get('/readsoftdelete', function(){
+//
+////   $post =  Post::find(7);
+////
+////   return $post;
+//
+////   $post = Post::withTrashed()->where('id', 7)->get();
+////   return $post;
+//
+//
+//    $post = Post::onlyTrashed()->where('is_admin', 0)->get();
+//    return $post;
+//
+//
+//
+//
+//});
+
+////restore a soft deleted item
+//Route::get('/restore', function(){
+//
+//    Post::withTrashed()->where('is_admin', 0)->restore();
+//
+//
+//
+//
+//});
+
+Route::get('/forcedelete', function(){
+
+   Post::onlyTrashed()->where('is_admin',0)->forceDelete();
 
 
 });
+
+
+
 
 
 
