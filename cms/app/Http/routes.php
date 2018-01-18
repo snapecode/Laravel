@@ -161,13 +161,56 @@ use App\Post;
 // you specify int he model like this
 
 
-Route::get('/create', function(){
+//Route::get('/create', function(){
+//
+//
+//    Post::create(['title'=>'the create method', 'content'=>'This is how I\'m gonna make fresh data']);
+//
+//
+//});
 
 
-    Post::create(['title'=>'the create method', 'content'=>'This is how I\'m gonna make fresh data']);
-    
-    
+//updating
+
+//Route::get('/update', function(){
+//
+//
+//
+//    Post::where('id', 2)->where('is_admin', 0)-> update(['title'=>'New PHP TITLE', 'content'=>'I am the best laraveler everrr']);
+//
+//
+//
+//});
+
+
+//DELETEEEEEEEE
+
+//
+//Route::get('/delete', function(){
+//
+//
+//    $post = Post::find(6);
+//
+//    $post->delete();
+//
+//
+//
+//});
+
+
+//use destroy oif you know the key
+
+Route::get('/delete2', function(){
+
+   Post::destroy(7);
+
+   //or
+   // Post::where('is_admin',0) ->delete();
+
+
 });
+
+
 
 
 
